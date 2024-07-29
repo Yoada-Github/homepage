@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 2rem;
+        }
+
+        nav ul li a:hover {
+            color: rgb(249, 102, 102);
+            text-decoration: none;
+            font-size: 2rem;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome To My File Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Local Video</h2>
+            <video controls width="600">
+                <source src="video.mp4" type="video/mp4">
+                
+            </video>
+        </section>
+        <section>
+            <h2>YouTube Video</h2>
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/CapTiQ-hs8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        </section>
+        <section>
+            <h2>Audio File</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                
+            </audio>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Movie Flixe</p>
+    </footer>
+</body>
+</html>
